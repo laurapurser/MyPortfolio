@@ -1,17 +1,16 @@
 .bodyhero {
-  background-color: rgba(136, 166, 138, 0.5);
+  background-image: linear-gradient(rgba(136, 166, 138, 0.7), white);
 }
 
 .h1col {
-  padding-top: 40px;
-  margin-top: 70px;
-  padding-left: 30px;
+  padding: 50px;
+  margin-top: 40px;
 }
 
 .photo {
   border-radius: 180px;
-  margin: 40px auto;
-  width: 250px;
+  margin: 50px auto;
+  width: 290px;
   display: block;
 }
 .h1hero {
@@ -20,4 +19,24 @@
 }
 .h2hero {
   font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  font-weight: lighter;
+}
+
+button {
+  background-color: rgba(136, 166, 138, 0.5);
+  padding: 10px 45px;
+  border-radius: 40px;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 1px solid white;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+button:hover {
+  background-color: white;
+  border: 1px solid rgb(136, 166, 138);
+  color: rgb(136, 166, 138);
+  transition: ease-in-out;
 }
