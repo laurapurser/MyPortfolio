@@ -1,10 +1,23 @@
-h1 {
+.bodyhero {
+  background-color: rgba(136, 166, 138, 0.5);
+}
+
+.h1col {
+  padding-top: 40px;
+  margin-top: 70px;
+  padding-left: 30px;
+}
+
+.photo {
+  border-radius: 180px;
+  margin: 40px auto;
+  width: 250px;
+  display: block;
+}
+.h1hero {
   font-family: "Lora", serif;
+  font-size: 88px;
 }
-h2 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: normal;
-}
-h3 {
+.h2hero {
   font-family: "Montserrat", sans-serif;
 }
