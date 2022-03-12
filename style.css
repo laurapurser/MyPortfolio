@@ -25,12 +25,11 @@
 }
 
 .weather-app-img {
-  width: 100%;
-
-  border: 1px solid rgb(136, 166, 138);
+  border: 5px solid rgb(136, 166, 138);
   border-radius: 11px;
   display: block;
-  padding: 5px;
+
+  width: 100%;
 }
 
 button {
@@ -88,4 +87,7 @@ button:hover {
   border: 1px solid rgb(136, 166, 138);
   color: rgb(136, 166, 138);
   transition: ease-in-out;
+}
+.container {
+  margin-top: 60px;
 }
