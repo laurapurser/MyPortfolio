@@ -1,6 +1,6 @@
 :root {
   --primary-colour: rgb(136, 166, 138, 0.7);
-  --secondary-colour: rgb(36, 82, 122);
+  --secondary-colour: rgb(48, 89, 126, 0.7);
   --heading-font: "Lora", serif;
   --paragraph-font: "Montserrat", sans-serif;
 }
@@ -25,10 +25,9 @@
 }
 
 .weather-app-img {
-  border: 5px solid rgb(136, 166, 138);
+  border: 2px solid rgb(136, 166, 138);
   border-radius: 11px;
   display: block;
-
   width: 100%;
 }
 
@@ -44,9 +43,9 @@ button {
   font-family: "Montserrat", sans-serif;
 }
 button:hover {
-  background-color: white;
-  border: 1px solid rgb(136, 166, 138);
-  color: rgb(136, 166, 138);
+  background-color: var(--secondary-colour);
+  border: 1px solid white;
+  color: white;
   transition: ease-in-out;
 }
 
@@ -89,9 +88,9 @@ button:hover {
 }
 
 .launch-link:hover {
-  background-color: white;
-  border: 1px solid rgb(136, 166, 138);
-  color: rgb(136, 166, 138);
+  background-color: var(--secondary-colour);
+  border: 1px solid white;
+  color: white;
   transition: ease-in-out;
 }
 .container {
@@ -104,6 +103,9 @@ button:hover {
   font-family: var(--heading-font);
   font-weight: bolder;
   font-size: 25px;
+}
+.nav-title:hover {
+  font-weight: bolder;
 }
 .nav-menu {
   font-family: var(--heading-font);
@@ -139,4 +141,37 @@ footer {
   font-size: 40px;
   display: flex;
   justify-content: center;
+  padding-bottom: 30px;
+}
+.social-links a {
+  color: black;
+  margin: 40px;
+  border: 2px solid var(--primary-colour);
+  border-radius: 200px;
+  padding: 13px 21px;
+  font-size: 25px;
+  background-color: white;
+}
+
+.social-links a:hover {
+  background-color: var(--secondary-colour);
+  color: white;
+  border: 2px solid white;
+  transition: ease-in-out;
+}
+.final {
+  font-family: var(--paragraph-font);
+  font-size: 11px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+}
+.final a {
+  text-decoration: none;
+  color: white;
+}
+.final a:hover {
+  color: var(--primary-colour);
 }
