@@ -175,3 +175,39 @@ footer {
 .final a:hover {
   color: var(--primary-colour);
 }
+@media (max-width: 600px) {
+  .h1hero {
+    text-align: center;
+    font-size: 65px;
+  }
+  .h2hero {
+    text-align: center;
+  }
+  button {
+    display: block;
+    margin: 40px auto;
+  }
+  .weather-app-img {
+    display: none;
+  }
+  .text-grid {
+    text-align: center;
+    padding-top: 10px;
+  }
+  .social-links a {
+    font-size: 18px;
+    margin: 10px 20px;
+  }
+  .footer-heading {
+    font-size: 30px;
+  }
+  .footer-p {
+    font-size: 20px;
+  }
+  .button-two {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .navigbar {
+  }
+}
