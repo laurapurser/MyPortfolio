@@ -184,10 +184,7 @@ footer {
   .h2hero {
     text-align: center;
   }
-  button {
-    display: block;
-    margin: 40px auto;
-  }
+
   .weather-app-img {
     display: none;
   }
@@ -209,10 +206,13 @@ footer {
     font-size: 20px;
     margin-top: 20px;
   }
-  .navigbar {
-  }
+
   .button-two {
     font-size: 15px;
     padding: 10px, 35px;
+  }
+  .get-in-touch {
+    display: block;
+    margin: 40px auto;
   }
 }
