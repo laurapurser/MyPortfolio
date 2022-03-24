@@ -30,20 +30,20 @@
 .abouth1hero {
   font-family: var(--heading-font);
   font-size: 65px;
-  text-align: center;
+  text-align: left;
   margin-top: 20px;
 }
 .abouth2hero {
   font-family: var(--paragraph-font);
   font-size: 28px;
   font-weight: normal;
-  text-align: center;
+  text-align: left;
 }
 .about-h3 {
   font-family: var(--paragraph-font);
   font-weight: lighter;
   font-size: 20px;
-  text-align: center;
+  text-align: left;
   line-height: 1.5;
 }
 .weather-app-img {
@@ -264,5 +264,33 @@ footer {
   .get-in-touch {
     display: block;
     margin: 40px auto;
+  }
+  .container-about {
+    width: auto;
+    padding-left: 10px;
+  }
+  .about-h3,
+  .abouth1hero,
+  .abouth2hero {
+    text-align: center;
+  }
+  .abouth1hero {
+    font-size: 51px;
+  }
+  .abouth2hero {
+    font-size: 28px;
+  }
+  .about-h3 {
+    font-size: 17px;
+  }
+  .portrait-image {
+    margin-top: auto;
+  }
+  .about-get-in-touch {
+    display: block;
+    margin: auto;
+  }
+  body {
+    width: 100%;
   }
 }
