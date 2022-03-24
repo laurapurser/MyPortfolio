@@ -15,7 +15,7 @@
 }
 .abouth1col {
   padding: 50px;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 .h1hero {
   font-family: var(--heading-font);
@@ -30,15 +30,22 @@
 .abouth1hero {
   font-family: var(--heading-font);
   font-size: 65px;
-  text-align: center;
+  text-align: right;
+  margin-top: 20px;
 }
 .abouth2hero {
   font-family: var(--paragraph-font);
   font-size: 30px;
-  font-weight: lighter;
-  text-align: center;
+  font-weight: normal;
+  text-align: right;
 }
-
+.about-h3 {
+  font-family: var(--paragraph-font);
+  font-weight: lighter;
+  font-size: 18px;
+  text-align: right;
+  line-height: 1.5;
+}
 .weather-app-img {
   border: 2px solid rgb(136, 166, 138);
   border-radius: 11px;
@@ -47,7 +54,7 @@
 }
 .about-get-in-touch {
   display: block;
-  margin: auto;
+  margin-top: 10px;
 }
 button {
   background-color: var(--primary-colour);
@@ -114,6 +121,11 @@ button:hover {
 .container {
   margin-top: 60px;
 }
+.container-about {
+  width: 70%;
+  margin: auto;
+  padding-left: 40px;
+}
 .navigbar {
   background-color: var(--primary-colour);
 }
@@ -138,6 +150,16 @@ button:hover {
   padding-bottom: 10px;
 
   margin-top: 120px;
+}
+.about-footer-box {
+  background-color: var(--primary-colour);
+  border: 2px solid white;
+  border-radius: 40px;
+  color: white;
+  padding: 20px;
+  padding-bottom: 10px;
+
+  margin-top: 40px;
 }
 footer {
   background-image: linear-gradient(white, rgba(136, 166, 138, 0.7));
@@ -199,8 +221,8 @@ footer {
   border-radius: 90px;
   display: block;
 
-  width: 350px;
-  margin-top: 50px;
+  width: 400px;
+  margin-top: 100px;
 
   border: 2px solid white;
 }
