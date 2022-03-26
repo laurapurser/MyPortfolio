@@ -67,7 +67,8 @@ button {
   color: white;
   font-family: "Montserrat", sans-serif;
 }
-button:hover {
+button:hover,
+.launch-link:hover {
   background-color: var(--secondary-colour);
   border: 1px solid white;
   color: white;
@@ -109,15 +110,8 @@ button:hover {
   color: white;
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
-  margin-top: 20px;
 }
 
-.launch-link:hover {
-  background-color: var(--secondary-colour);
-  border: 1px solid white;
-  color: white;
-  transition: ease-in-out;
-}
 .container {
   margin-top: 60px;
 }
@@ -141,24 +135,19 @@ button:hover {
   font-family: var(--heading-font);
   font-size: 23px;
 }
-.footer-box {
+
+.footer-basic {
   background-color: var(--primary-colour);
   border: 2px solid white;
   border-radius: 40px;
   color: white;
   padding: 20px;
   padding-bottom: 10px;
-
+}
+.footer-box {
   margin-top: 120px;
 }
 .about-footer-box {
-  background-color: var(--primary-colour);
-  border: 2px solid white;
-  border-radius: 40px;
-  color: white;
-  padding: 20px;
-  padding-bottom: 10px;
-
   margin-top: 40px;
 }
 footer {
