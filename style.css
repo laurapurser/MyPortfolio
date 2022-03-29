@@ -39,6 +39,13 @@
   font-weight: normal;
   text-align: left;
 }
+.project-h1 {
+  font-family: var(--heading-font);
+  font-size: 50px;
+  font-weight: normal;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
 .about-h3 {
   font-family: var(--paragraph-font);
   font-weight: lighter;
