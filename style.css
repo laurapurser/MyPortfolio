@@ -63,7 +63,7 @@ a:hover {
 }
 .contact {
   text-align: center;
-  font-size: 75px;
+  font-size: 80px;
 }
 .weather-app-img {
   border: 2px solid rgb(136, 166, 138);
@@ -332,5 +332,9 @@ footer {
   }
   body {
     width: 100%;
+  }
+  .contact {
+    text-align: center;
+    font-size: 60px;
   }
 }
