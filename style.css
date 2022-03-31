@@ -236,7 +236,6 @@ footer {
   }
   .text-grid {
     text-align: center;
-    padding-top: 10px;
   }
   .social-links a {
     font-size: 18px;
@@ -285,6 +284,16 @@ footer {
   .about-get-in-touch {
     display: block;
     margin: auto;
+  }
+  .container {
+    margin-top: 0px;
+  }
+  .h1col {
+    padding-bottom: 5px;
+  }
+  .project-h1 {
+    text-align: center;
+    font-size: 35px;
   }
   body {
     width: 100%;
