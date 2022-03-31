@@ -14,6 +14,9 @@
   padding: 50px;
   margin-top: 40px;
 }
+.h1col a {
+  color: white;
+}
 .abouth1col {
   padding: 50px;
   margin-top: 40px;
@@ -86,11 +89,18 @@ button:hover,
   color: white;
   transition: ease-in-out;
 }
-
+button a {
+  text-decoration: none;
+  color: white;
+}
 .button-two {
   background-color: white;
   color: var(--primary-colour);
   font-weight: normal;
+}
+.button-two a {
+  text-decoration: none;
+  color: var(--primary-colour);
 }
 .h1-grid {
   font-family: var(--heading-font);
