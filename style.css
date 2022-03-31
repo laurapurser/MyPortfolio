@@ -57,9 +57,13 @@
   text-align: left;
   line-height: 1.5;
 }
-
+a:hover {
+  text-decoration: none;
+  color: white;
+}
 .contact {
   text-align: center;
+  font-size: 75px;
 }
 .weather-app-img {
   border: 2px solid rgb(136, 166, 138);
@@ -71,6 +75,7 @@
   display: block;
   margin-top: 10px;
 }
+
 button {
   background-color: var(--primary-colour);
   padding: 10px 45px;
