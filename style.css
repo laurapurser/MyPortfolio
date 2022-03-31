@@ -5,7 +5,8 @@
   --paragraph-font: "Montserrat", sans-serif;
 }
 
-.bodyhero {
+.bodyhero,
+.contact-hero {
   background-image: linear-gradient(rgba(136, 166, 138, 0.7), white);
 }
 
@@ -52,6 +53,10 @@
   font-size: 20px;
   text-align: left;
   line-height: 1.5;
+}
+
+.contact {
+  text-align: center;
 }
 .weather-app-img {
   border: 2px solid rgb(136, 166, 138);
@@ -221,6 +226,21 @@ footer {
   margin-top: 120px;
 
   border: 2px solid white;
+}
+
+.contact-details p {
+  font-family: var(--paragraph-font);
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+.contact-details a {
+  font-family: var(--paragraph-font);
+  color: var(--primary-colour);
+  font-size: 27px;
+  font-weight: normal;
+}
+.contact-details a:hover {
+  color: var(--secondary-colour);
 }
 @media (max-width: 1000px) {
   .h1hero {
