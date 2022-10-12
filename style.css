@@ -5,6 +5,15 @@
   --paragraph-font: "Montserrat", sans-serif;
 }
 
+.bgvid {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 .bodyhero,
 .contact-hero {
   background-image: linear-gradient(rgba(136, 166, 138, 0.7), white);
@@ -13,6 +22,7 @@
 .h1col {
   padding: 50px;
   margin-top: 40px;
+  position: relative;
 }
 .h1col a {
   color: white;
